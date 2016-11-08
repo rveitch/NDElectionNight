@@ -8,66 +8,110 @@
 	<meta property="og:description" content="Dashboard displaying ND Election Results. Updated every 5 minutes from the North Dakota Voting Information &amp; Central Election Systems data at http://results.sos.nd.gov/." />
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
 	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div ng-app="app">
-	<div ng-controller="ctrl">
+	<div ng-app="app">
+  <div ng-controller="ctrl">
 
-  <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
-    <a class="navbar-brand" href="#">ND Election Night</a>
-    <!--<ul class="nav navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+      <a class="navbar-brand" href="#">ND Election Night</a>
+      <!--<ul class="nav navbar-nav">
+      <li class="nav-item"></li>
+      <li class="nav-item">
+        <span class="navbar-text nav-link">
+        {{precincts.reporting}} of {{precincts.total}} Precincts Reporting
+        </span>
       </li>
       <li class="nav-item">
+        <span class="navbar-text nav-link">
+        Updated {{updated.time}}
+        </span>
+      </li>-->
+      <!--<li class="nav-item">
         <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>-->
-  </nav>
+      </li>-->
+    </ul>
 
-  <div class="container-fluid">
 
-    <div class="card-columns">
+    </nav>
 
-      <div class="card">
-        <div class="card-header text-muted">
-          North Dakota Presidential Results
+    <div class="container-fluid">
+
+
+
+      <div class="card-columns">
+
+        <div class="card">
+          <div class="card-header text-muted">
+            State Results<span class="float-xs-right">Updated {{updated.time}}</span>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="text-xs-center" id="example-caption-4">
+                {{precincts.reporting}} of {{precincts.total}} Precincts Reporting
+              </div>
+              <progress class="progress" value="{{precincts.reporting}}" max="{{precincts.total}}" aria-describedby="precincts-reporting"></progress>
+            </li>
+            <li class="list-group-item">
+              <div class="text-xs-center" id="example-caption-4">
+                {{ballots.cast}} of 570,955 Eligible Ballots Cast
+              </div>
+              <progress class="progress" value="{{ballots.cast}}" max="{{ballots.elgible}}" aria-describedby="precincts-reporting"></progress>
+            </li>
+          </ul>
         </div>
-        <div class="card-block">
-          <h4 class="card-title">President & Vice-President of the United States</h4>
-          <h6 class="card-subtitle text-muted">Last Updated {{updated}}</h6>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item" ng-repeat="card in cards"><span class="tag {{card.tag}} float-xs-right">{{card.party}}</span>{{card.president}}<br>{{card.vp}}
-            <div class="float-xs-right"><span class="float-xs-right">{{card.votes}}</span></div>
-          </li>
-        </ul>
-        <div class="card-footer text-muted">
-          Total Votes Cast<span class="float-xs-right">0</span>
-        </div>
-      </div>
-
-    </div>
 
 
-  </div>
-  <!-- /.container -->
+        <div class="card">
+          <div class="card-header text-muted">
+            North Dakota Presidential Results
+          </div>
+          <div class="card-block">
+            <h4 class="card-title">President & Vice-President of the United States</h4>
+            <h6 class="card-subtitle text-muted">0 of 432 Precincts Reporting @ 3:12PM</h6>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item" ng-repeat="card in cards"><span class="tag tag-{{card.party}} float-xs-right">{{card.party}}</span>{{card.president}}<br><span class="text-muted"><small>{{card.vp}}</small></span>
+              <div class="float-xs-right"><span class="float-xs-right">{{card.votes}}</span></div>
+            </li>
+          </ul>
+          <div class="card-footer text-muted">
+            Total Votes Cast<span class="float-xs-right">0</span>
+          </div>
+        </div><!-- /.president -->
 
-	</div>
-</div>
+
+        <div class="card" ng-repeat="contest in contests">
+          <div class="card-header text-muted">
+            North Dakota State Election Results
+          </div>
+          <div class="card-block">
+            <h4 class="card-title">{{contest.title}}</h4>
+            <h6 class="card-subtitle text-muted">{{precincts.reporting}} of {{precincts.total}} Precincts Reporting @ {{updated.time}}</h6>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item" ng-repeat="candidate in contest.candidates"><span class="tag-votes float-xs-right">{{candidate.votes}}</span><span class="tag tag-{{candidate.party}} float-xs-right">{{candidate.party}}</span>{{candidate.name}}</div>
+            </li>
+          </ul>
+          <div class="card-footer text-muted">
+            Total Votes Cast<span class="float-xs-right">0</span>
+          </div>
+        </div><!-- /.state -->
+
+
+     </div><!-- /.card-columns -->
+    </div><!-- /.container -->
+	</div><!-- /.ctrl -->
+</div><!-- /.app -->
+
+
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js'></script>
-<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js'></script>
-
-    <script src="js/index.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js'></script>
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js'></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js'></script>
+	<script src="js/index.js"></script>
 
 </body>
 </html>
