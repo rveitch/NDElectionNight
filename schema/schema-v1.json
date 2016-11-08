@@ -2,11 +2,7 @@
   "title": "2016 General Election - UNOFFICIAL RESULTS",
   "subtitle": "State of North Dakota Results",
   "reporting": "Precincts Reporting: 0/432 - Total Ballots Cast: 0",
-  "downloaded": "Downloaded at 11/7/2016 10:11:45 AM",
-  "updated": {
-    "date": "11/7/2016",
-    "time": "10:11:45 AM"
-  },
+  "updated": "Downloaded at 11/7/2016 10:11:45 AM",
   "precincts": {
     "reporting": 0,
     "total": 432
@@ -74,8 +70,8 @@
       }
     },
     "state": {
-      "nd": [
-        {
+      "nd": {
+        "senator": {
           "title": "United States Senator",
           "candidates": [
             {
@@ -99,13 +95,13 @@
               "votes": 0
             },
             {
-              "name": "Write-In",
+              "name": "write-in",
               "party": "NON",
               "votes": 0
             }
           ]
         },
-        {
+        "congress": {
           "title": "Representative in Congress",
           "candidates": [
             {
@@ -124,13 +120,13 @@
               "votes": 0
             },
             {
-              "name": "Write-In",
+              "name": "write-in",
               "party": "NON",
               "votes": 0
             }
           ]
         },
-        {
+        "governor": {
           "title": "Governor and Lt. Governor",
           "candidates": [
             {
@@ -149,13 +145,13 @@
               "votes": 0
             },
             {
-              "name": "Write-In",
+              "name": "write-in",
               "party": "NON",
               "votes": 0
             }
           ]
         },
-        {
+        "auditor": {
           "title": "State Auditor",
           "candidates": [
             {
@@ -169,13 +165,13 @@
               "votes": 0
             },
             {
-              "name": "Write-In",
+              "name": "write-in",
               "party": "NON",
               "votes": 0
             }
           ]
         },
-        {
+        "treasurer": {
           "title": "State Treasurer",
           "candidates": [
             {
@@ -194,13 +190,13 @@
               "votes": 0
             },
             {
-              "name": "Write-In",
+              "name": "write-in",
               "party": "NON",
               "votes": 0
             }
           ]
         },
-        {
+        "insurancecommissioner": {
           "title": "Insurance Commissioner",
           "candidates": [
             {
@@ -219,13 +215,13 @@
               "votes": 0
             },
             {
-              "name": "Write-In",
+              "name": "write-in",
               "party": "NON",
               "votes": 0
             }
           ]
         },
-        {
+        "publicservicecommissioner": {
           "title": "Public Service Commissioner",
           "candidates": [
             {
@@ -244,13 +240,13 @@
               "votes": 0
             },
             {
-              "name": "Write-In",
+              "name": "write-in",
               "party": "NON",
               "votes": 0
             }
           ]
         },
-        {
+        "SuperintendentPublicInstruction": {
           "title": "Superintendent of Public Instruction",
           "candidates": [
             {
@@ -265,7 +261,7 @@
             }
           ]
         },
-        {
+        "justicesupremecourt": {
           "title": "Justice of the Supreme Court",
           "candidates": [
             {
@@ -279,13 +275,13 @@
               "votes": 0
             },
             {
-              "name": "Write-In",
+              "name": "write-in",
               "party": "NON",
               "votes": 0
             }
           ]
         },
-        {
+        "justicesupremecourtunexpired": {
           "title": "Justice of the Supreme Court Unexpired 2-Year Term",
           "candidates": [
             {
@@ -294,13 +290,13 @@
               "votes": 0
             },
             {
-              "name": "Write-In",
+              "name": "write-in",
               "party": "NON",
               "votes": 0
             }
           ]
         }
-      ]
+      }
     }
   }
 }
