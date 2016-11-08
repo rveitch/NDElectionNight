@@ -1,0 +1,20 @@
+body {
+  padding-top: 5rem;
+}
+
+.card {
+  max-width: 25rem;
+}
+
+.center-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tag {
+  margin-top: 5px;
+}
+
+.tag-writein {
+  background-color: #ccc;
+}

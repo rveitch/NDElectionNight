@@ -1,0 +1,287 @@
+{
+  "Title": "2016 General Election - UNOFFICIAL RESULTS",
+  "Subtitle": "State of North Dakota Results",
+  "PrecinctsReporting": "Precincts Reporting: 0/432 - Total Ballots Cast: 0",
+  "Updated": "Downloaded at 11/7/2016 10:11:45 AM",
+  "Precincts": {
+    "reporting": 0,
+    "total": 432
+  },
+  "Ballots": {
+    "cast": 0,
+    "elgible": 570955
+  },
+  "Contests": {
+    "US": {
+      "President": {
+        "Title": "President & Vice-President of the United States",
+        "Candidates": [
+          {
+            "Name": "write-in",
+            "Party": "NON",
+            "Votes": 0
+          },
+          {
+            "Name": "CLINTON",
+            "Party": "DEM",
+            "Votes": 0
+          },
+          {
+            "Name": "TRUMP",
+            "Party": "REP",
+            "Votes": 0
+          },
+          {
+            "Name": "JOHNSON",
+            "Party": "LIB",
+            "Votes": 0
+          },
+          {
+            "Name": "STEIN",
+            "Party": "GRE",
+            "Votes": 0
+          },
+          {
+            "Name": "DE LA FUENTE",
+            "Party": "ADP",
+            "Votes": 0
+          },
+          {
+            "Name": "CASTLE",
+            "Party": "CON",
+            "Votes": 0
+          }
+        ]
+      }
+    },
+    "State": {
+      "ND": {
+        "Senator": {
+          "Title": "United States Senator",
+          "Candidates": [
+            {
+              "Name": "Eliot  Glassheim",
+              "Party": "DEM",
+              "Votes": 0
+            },
+            {
+              "Name": "John  Hoeven",
+              "Party": "REP",
+              "Votes": 0
+            },
+            {
+              "Name": "James Germalic",
+              "Party": "IND",
+              "Votes": 0
+            },
+            {
+              "Name": "Robert N Marquette",
+              "Party": "LIB",
+              "Votes": 0
+            },
+            {
+              "Name": "write-in",
+              "Party": "NON",
+              "Votes": 0
+            }
+          ]
+        },
+        "Congress": {
+          "Title": "Representative in Congress",
+          "Candidates": [
+            {
+              "Name": "Chase Iron Eyes",
+              "Party": "DEM",
+              "Votes": 0
+            },
+            {
+              "Name": "Kevin Cramer",
+              "Party": "REP",
+              "Votes": 0
+            },
+            {
+              "Name": "Jack Seaman",
+              "Party": "LIB",
+              "Votes": 0
+            },
+            {
+              "Name": "write-in",
+              "Party": "NON",
+              "Votes": 0
+            }
+          ]
+        },
+        "Governor": {
+          "Title": "Governor and Lt. Governor",
+          "Candidates": [
+            {
+              "Name": "Marvin E Nelson & Joan Heckaman",
+              "Party": "DEM",
+              "Votes": 0
+            },
+            {
+              "Name": "Doug Burgum & Brent Sanford",
+              "Party": "REP",
+              "Votes": 0
+            },
+            {
+              "Name": "Marty Riske & Joshua Voytek",
+              "Party": "LIB",
+              "Votes": 0
+            },
+            {
+              "Name": "write-in",
+              "Party": "NON",
+              "Votes": 0
+            }
+          ]
+        },
+        "Auditor": {
+          "Title": "State Auditor",
+          "Candidates": [
+            {
+              "Name": "Josh Gallion",
+              "Party": "REP",
+              "Votes": 0
+            },
+            {
+              "Name": "Roland Riemers",
+              "Party": "LIB",
+              "Votes": 0
+            },
+            {
+              "Name": "write-in",
+              "Party": "NON",
+              "Votes": 0
+            }
+          ]
+        },
+        "Treasurer": {
+          "Title": "State Treasurer",
+          "Candidates": [
+            {
+              "Name": "Tim Mathern",
+              "Party": "DEM",
+              "Votes": 0
+            },
+            {
+              "Name": "Kelly L Schmidt",
+              "Party": "REP",
+              "Votes": 0
+            },
+            {
+              "Name": "Eric Olson",
+              "Party": "LIB",
+              "Votes": 0
+            },
+            {
+              "Name": "write-in",
+              "Party": "NON",
+              "Votes": 0
+            }
+          ]
+        },
+        "InsuranceCommissioner": {
+          "Title": "Insurance Commissioner",
+          "Candidates": [
+            {
+              "Name": "Ruth Buffalo",
+              "Party": "DEM",
+              "Votes": 0
+            },
+            {
+              "Name": "Jon Godfread",
+              "Party": "REP",
+              "Votes": 0
+            },
+            {
+              "Name": "Nick Bata",
+              "Party": "LIB",
+              "Votes": 0
+            },
+            {
+              "Name": "write-in",
+              "Party": "NON",
+              "Votes": 0
+            }
+          ]
+        },
+        "PublicServiceCommissioner": {
+          "Title": "Public Service Commissioner",
+          "Candidates": [
+            {
+              "Name": "Marlo Hunte-Beaubrun",
+              "Party": "DEM",
+              "Votes": 0
+            },
+            {
+              "Name": "Julie Fedorchak",
+              "Party": "REP",
+              "Votes": 0
+            },
+            {
+              "Name": "Thomas Skadeland",
+              "Party": "LIB",
+              "Votes": 0
+            },
+            {
+              "Name": "write-in",
+              "Party": "NON",
+              "Votes": 0
+            }
+          ]
+        },
+        "SuperintendentPublicInstruction": {
+          "Title": "Superintendent of Public Instruction",
+          "Candidates": [
+            {
+              "Name": "Kirsten Baesler",
+              "Party": "NON",
+              "Votes": 0
+            },
+            {
+              "Name": "Joe Chiang",
+              "Party": "NON",
+              "Votes": 0
+            }
+          ]
+        },
+        "JusticeSupremeCourt": {
+          "Title": "Justice of the Supreme Court",
+          "Candidates": [
+            {
+              "Name": "Jerod Elton Tufte",
+              "Party": "NON",
+              "Votes": 0
+            },
+            {
+              "Name": "Robert V Bolinske Sr",
+              "Party": "NON",
+              "Votes": 0
+            },
+            {
+              "Name": "write-in",
+              "Party": "NON",
+              "Votes": 0
+            }
+          ]
+        },
+        "JusticeSupremeCourtUnexpired": {
+          "Title": "Justice of the Supreme Court Unexpired 2-Year Term",
+          "Candidates": [
+            {
+              "Name": "Lisa Fair McEvers",
+              "Party": "NON",
+              "Votes": 0
+            },
+            {
+              "Name": "write-in",
+              "Party": "NON",
+              "Votes": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

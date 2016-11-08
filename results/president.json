@@ -1,0 +1,37 @@
+[
+  {
+    "Name": "CLINTON",
+    "Party": "DEM",
+    "Votes": 0
+  },
+  {
+    "Name": "TRUMP",
+    "Party": "REP",
+    "Votes": 0
+  },
+  {
+    "Name": "JOHNSON",
+    "Party": "LIB",
+    "Votes": 0
+  },
+  {
+    "Name": "STEIN",
+    "Party": "GRE",
+    "Votes": 0
+  },
+  {
+    "Name": "DE LA FUENTE",
+    "Party": "ADP",
+    "Votes": 0
+  },
+  {
+    "Name": "CASTLE",
+    "Party": "CON",
+    "Votes": 0
+  },
+  {
+    "Name": "write-in",
+    "Party": "NON",
+    "Votes": 0
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "NDElectionNight",
+  "version": "1.0.0",
+  "description": "Dashboard displaying ND Election Results",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ryan Veitch",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "elasticsearch": "^12.0.1",
+    "express": "^4.14.0",
+    "request": "^2.78.0",
+    "xls-parse": "^1.0.4",
+    "xls-to-json": "^0.4.0",
+    "xlsjs": "^0.7.5"
+  }
+}
