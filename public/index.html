@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <title>ND Election Night</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
+
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
-<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css'>
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
 
-  
+
 </head>
 
 <body>
@@ -42,7 +42,7 @@
         </div>
         <div class="card-block">
           <h4 class="card-title">President & Vice-President of the United States</h4>
-          <h6 class="card-subtitle text-muted">0 of 432 Precincts Reporting @ 3:12PM</h6>
+          <h6 class="card-subtitle text-muted">Last Updated {{updated}}</h6>
         </div>
         <ul class="list-group list-group-flush">
           <li class="list-group-item" ng-repeat="card in cards"><span class="tag {{card.tag}} float-xs-right">{{card.party}}</span>{{card.president}}<br>{{card.vp}}
