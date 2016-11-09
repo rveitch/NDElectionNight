@@ -34,10 +34,10 @@ app.get('/results', function(req, res) {
 
 app.listen(app.get('port'), function() {
   console.log('Server started: http://localhost:' + app.get('port') + '/');
-	clearInterval(interval);
+	/*clearInterval(interval);
 	var interval = setInterval(function() {
 		XLSRequest(); // fetch every 5 minutes
-	}, 60000);
+	}, 60000);*/
 });
 
 function XLSRequest() {
