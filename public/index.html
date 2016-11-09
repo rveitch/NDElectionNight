@@ -70,7 +70,7 @@
           </div>
           <div class="card-block">
             <h4 class="card-title">President & Vice-President of the United States</h4>
-            <h6 class="card-subtitle text-muted">0 of 432 Precincts Reporting @ 3:12PM</h6>
+            <h6 class="card-subtitle text-muted">{{precincts.reporting}} of {{precincts.total}} Precincts Reporting @ {{updated.time}}</h6>
           </div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item" ng-repeat="card in cards"><span class="tag tag-{{card.party}} float-xs-right">{{card.party}}</span>{{card.president}}<br><span class="text-muted"><small>{{card.vp}}</small></span>

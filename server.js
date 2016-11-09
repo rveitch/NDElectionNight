@@ -37,7 +37,7 @@ app.listen(app.get('port'), function() {
 	clearInterval(interval);
 	var interval = setInterval(function() {
 		XLSRequest(); // fetch every 5 minutes
-	}, 300000);
+	}, 60000);
 });
 
 function XLSRequest() {
