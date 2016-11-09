@@ -50,13 +50,13 @@
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
               <div class="text-xs-center" id="example-caption-4">
-                {{precincts.reporting}} of {{precincts.total}} Precincts Reporting
+                {{precincts.reporting}} of {{precincts.total}} Precincts Reporting - {{reportingPercent}}
               </div>
               <progress class="progress" value="{{precincts.reporting}}" max="{{precincts.total}}" aria-describedby="precincts-reporting"></progress>
             </li>
             <li class="list-group-item">
               <div class="text-xs-center" id="example-caption-4">
-                {{ballots.cast}} of 570,955 Eligible Ballots Cast
+                {{ballots.cast}} of 570955 Eligible Ballots Cast - {{ballotsPercent}}
               </div>
               <progress class="progress" value="{{ballots.cast}}" max="{{ballots.elgible}}" aria-describedby="precincts-reporting"></progress>
             </li>
