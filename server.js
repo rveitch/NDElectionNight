@@ -67,11 +67,11 @@ function JSONconvert() {
 	schema.reporting = results['A3'].v;
 
 	// Precincts Reporting:
-	var precinctsReporting = parseInt(reporting.split("",1)[0]);
+	var precinctsReporting = parseInt(reporting.split("/",1)[0]);
 	schema.precincts.reporting = precinctsReporting;
 
 	// Total Ballots Cast:
-	var ballotsArray = reporting.split("");
+	var ballotsArray = reporting.split(": ");
 	var ballotsCast = parseInt(ballotsArray[ballotsArray.length - 1]);
 	schema.ballots.cast = ballotsCast;
 
